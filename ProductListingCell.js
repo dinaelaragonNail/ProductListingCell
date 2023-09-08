@@ -16,43 +16,6 @@ class productListingCell extends HTMLElement {
     this.sku;
     this.isInStock;
   }
-
-  // attributeChangedCallback(nameAtr, oldValue, newValue) {
-  //   switch (nameAtr) {
-  //     case 'main-image':
-  //       this.querySelector('.main-image')?.setAttribute('src', newValue);
-  //       break;
-  //     case 'hover-image':
-  //       this.querySelector('.hover-image')?.setAttribute('src', newValue);
-  //       break;
-  //     case 'price':
-  //       this.querySelector('.regular-price').innerText = newValue;
-  //       break;
-  //     case 'specialPrice':
-  //       this.querySelector('.specialPrice').innerText = newValue;
-  //       break;
-  //     case 'name':
-  //       this.querySelector('.name').innerText = newValue;
-  //       break;
-  //     case 'sku':
-  //       this.querySelector('.sku').innerText = newValue;
-  //       break;
-  //     case 'isInStock':
-  //       this.querySelector('.isInStock').innerText = newValue;
-  //       break;
-  //     case 'isSwatch':
-  //       this.querySelector('.isSwatch').innerText = newValue;
-  //       break;
-  //     case 'isToggle':
-  //       this.querySelector('.isToggle').innerText = newValue;
-  //       break;
-  //     case 'link':
-  //       this.querySelector('.link-product').href = newValue;
-  //       this.querySelector('.information').href = newValue;
-  //       break;
-  //   }
-  // }
-
   attributeChangedCallback(nameAtr, oldValue, newValue) {
     switch (nameAtr) {
       case 'name':
